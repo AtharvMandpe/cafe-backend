@@ -5,10 +5,10 @@ import { createClient } from 'redis';
 // const redisClient = createClient({ url: "redis://localhost:6378" });
 const redisClient = createClient({
   username: 'default',
-  password: 'nkR1dGx5FfhFcz7KslR2lPAC5L0tEoY5',
+  password: 'IWX7DegIe6CDoOsDTqU5clcpJNb8ynyj',
   socket: {
-      host: 'redis-17153.crce179.ap-south-1-1.ec2.redns.redis-cloud.com',
-      port: 17153
+      host: 'http://redis-18282.c273.us-east-1-2.ec2.redns.redis-cloud.com',
+      port: 18282
   }
 });
 
